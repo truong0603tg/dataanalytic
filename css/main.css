@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center; }
+
+html, body {
+  font-size: 62.5%;
+  font-weight: normal;
+  background-color: #222; }
+
+section {
+  padding: 0 15rem; }
+
+header {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  position: relative;
+  margin-bottom: 2rem; }
+  header h1.header-title {
+    font-size: 5rem;
+    text-align: center;
+    color: #eee;
+    font-weight: normal; }
+    header h1.header-title span {
+      color: red; }
+  header::after {
+    content: "";
+    width: 100%;
+    height: 1rem;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+h1.title {
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 5rem; }
+  h1.title span {
+    color: #0084ff; }
+
+h3 {
+  font-size: 2.4rem;
+  color: #ddd;
+  font-weight: 100;
+  margin-bottom: 1rem; }
+
+h3.title_name {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 700;
+  margin: 2rem; }
+
+h4 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 2rem 0;
+  text-align: center; }
+
+p {
+  font-size: 1.8rem;
+  color: #bbb;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  margin-left: 1rem; }
+  p span {
+    color: red;
+    font-weight: bold; }
+
+h5 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.8rem; }
+
+h4.section {
+  font-size: 2.2rem;
+  color: #fff;
+  text-align: left; }
+  h4.section span {
+    color: blue; }
+
+div.sec {
+  margin-bottom: 3rem; }
+  div.sec p {
+    margin-left: 8rem; }
+  div.sec h3 {
+    color: #fff;
+    font-weight: bold; }
+
+.fqa h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: blue; }
+.fqa h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff; }
+.fqa p {
+  text-align: left;
+  font-size: 1.6rem;
+  color: #ddd; }
+
+.btn_red {
+  background-color: red;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+  text-decoration: none;
+  margin-bottom: 3rem; }
+  .btn_red:hover {
+    background-color: #fff;
+    color: red;
+    text-decoration: none; }
+
+img {
+  width: 50vw; }
+  img.grt {
+    width: 60vw;
+    height: auto; }
+  img.covid {
+    width: 40vw; }
+  img.dolo {
+    width: 50vw; }
+  img.question {
+    width: 50vw; }
+
+footer {
+  margin: 5rem 0 0;
+  background-color: #111;
+  padding: 5rem 7rem; }
+  footer hr {
+    color: #eee;
+    background-color: #fff; }
+  footer .footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  footer .credit {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0; }
+    footer .credit p {
+      text-align: center; }
+    footer .credit span {
+      color: red; }
+
+.infotation {
+  width: 60vw;
+  padding: 2rem 3rem;
+  margin: auto;
+  border: 1px solid #eee;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem; }
+  .infotation h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.4rem;
+    margin-bottom: 3rem; }
+  .infotation input {
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding: 10px 20px;
+    color: #222;
+    background-color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 0.5rem; }
+    .infotation input::placeholder {
+      font-size: 1.4rem; }
+  .infotation a.btn_red {
+    display: block;
+    width: 80%; }
+
+@media screen and (max-width: 998px) {
+  html, body {
+    font-size: 50%; }
+
+  section {
+    padding: 5rem; }
+
+  header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    position: relative;
+    margin-bottom: 2rem; }
+    header h1.header-title {
+      font-size: 3rem;
+      text-align: center;
+      color: #eee;
+      font-weight: normal; }
+      header h1.header-title span {
+        color: red; }
+
+  h1.title {
+    font-size: 4.5rem; }
+
+  h3 {
+    font-size: 2.5rem; }
+
+  img.grt {
+    width: 40vw; } }
+
+/*# sourceMappingURL=main.css.map */
